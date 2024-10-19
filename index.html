@@ -4,7 +4,113 @@
 <head>
 <title>KNC-BANK-OF KENYA</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" title="style (screen)" />
+<style>
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+}
+
+/* Navigation */
+#nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main and Right Sections */
+#main, #right {
+    padding: 20px;
+}
+
+#right {
+    width: 30%;
+    float: right;
+}
+
+#main {
+    width: 65%;
+    float: left;
+}
+
+/* Clearfix */
+.clearer {
+    clear: both;
+}
+
+/* Responsive Images */
+img.front {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    #right {
+        width: 100%;
+        float: none;
+    }
+
+    #main {
+        width: 100%;
+        float: none;
+    }
+
+    #nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #nav {
+        padding: 5px;
+    }
+
+    #nav ul li {
+        margin: 5px 0;
+    }
+}
+
+#foot {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+</style>
 </head>
 <body>
 <div class="wrap">
